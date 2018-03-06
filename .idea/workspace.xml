@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f33b6ead-f42b-457e-aa84-567bdc77ea47" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/.asscache" afterPath="$PROJECT_DIR$/build/.asscache" />
-      <change beforePath="$PROJECT_DIR$/build/.dependencies" afterPath="$PROJECT_DIR$/build/.dependencies" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/Label/Tlabel.class" afterPath="$PROJECT_DIR$/build/classes/main/Label/Tlabel.class" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/Task/Task.class" afterPath="$PROJECT_DIR$/build/classes/main/Task/Task.class" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/todoapp/FacebookoauthController.class" afterPath="$PROJECT_DIR$/build/classes/main/todoapp/FacebookoauthController.class" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/todoapp/Role.class" afterPath="$PROJECT_DIR$/build/classes/main/todoapp/Role.class" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/todoapp/User.class" afterPath="$PROJECT_DIR$/build/classes/main/todoapp/User.class" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/todoapp/UserRole.class" afterPath="$PROJECT_DIR$/build/classes/main/todoapp/UserRole.class" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/grails.build.info" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/grails.build.info" />
-      <change beforePath="$PROJECT_DIR$/build/stacktrace.log" afterPath="$PROJECT_DIR$/build/stacktrace.log" />
-      <change beforePath="$PROJECT_DIR$/grails-app/controllers/todoapp/FacebookoauthController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/todoapp/FacebookoauthController.groovy" />
+      <change beforePath="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/graph.js" afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/graph.js" />
+      <change beforePath="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/settings.js" afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/settings.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -29,13 +20,70 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Todoapp" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FacebookoauthController.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FacebookoauthController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/todoapp/FacebookoauthController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+            <state relative-caret-position="44">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/controllers/settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graph.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/controllers/graph.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingsController.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/todoapp/SettingsController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="136" column="40" lean-forward="false" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -806,6 +854,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/grails-app/controllers/todoapp/FacebookoauthController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/settings.js" />
+        <option value="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/graph.js" />
       </list>
     </option>
   </component>
@@ -816,8 +866,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="95" />
-    <option name="y" value="20" />
+    <option name="x" value="136" />
+    <option name="y" value="18" />
     <option name="width" value="1271" />
     <option name="height" value="636" />
   </component>
@@ -854,6 +904,27 @@
               <item name="todoapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="todoapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todoapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todoapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todoapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todoapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todoapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todoapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -862,6 +933,19 @@
               <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
               <item name="todoapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todoapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todoapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todoapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todoapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="todoapp" type="b2602c69:ProjectViewProjectNode" />
@@ -888,7 +972,7 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/follow/todo" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1006,12 +1090,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520364144888</updated>
-      <workItem from="1520364147795" duration="235000" />
+      <workItem from="1520364147795" duration="2351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235000" />
+    <option name="totallyTimeSpent" value="2351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -1040,7 +1124,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1337,8 +1421,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/todoapp/FacebookoauthController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+        <state relative-caret-position="44">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/todoapp/SettingsController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="136" column="40" lean-forward="false" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/controllers/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/controllers/graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
           <folding />
         </state>
       </provider>

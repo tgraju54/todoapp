@@ -5,7 +5,7 @@ var todoAppModule = angular.module("todoApp", []);
 todoAppModule.controller("settingsCtrl", function($scope, $http) {
 
     $scope.tsa_indicator=null;
-    $scope.loader=null
+    $scope.loader=null;
 
     $scope.checktsa=function () {
         $http.get('/api/settings/gettsa/') //reading the json file

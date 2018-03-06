@@ -2,7 +2,7 @@
 var todoAppModule = angular.module("todoApp", []);
 
 //code will get graph data from controller and plot the graph
-todoAppModule.controller("graphCtrl", function($scope, $rootScope, $http, $location,$window){
+todoAppModule.controller("graphCtrl", function($scope, $rootScope, $http, $location,$window,$timeout){
 
     $scope.checktsa=function () {
         $http.get('/api/settings/gettsa/') //reading the json file
@@ -31,28 +31,34 @@ todoAppModule.controller("graphCtrl", function($scope, $rootScope, $http, $locat
 
 
 
+    $scope.getgraphdata=function () {
 
+        $http.get('/api/graph/index/') //reading the json file
+            .success(function (data) {
 
-    $http.get('/api/graph/index/') //reading the json file
-        .success(function (data) {
-
-            $scope.graphdata=data;
-            console.log(data);
-            // binding the data to the $scope variable
-        })
-        .error(function (data, status) {
-            console.error('failure loading the student record', status, data);
-            $scope.tdetail = {}; //return blank record if something goes wrong
-        });
-    //plotting the google graphs
-    google.charts.load('current', {'packages':['line']});
-    google.charts.setOnLoadCallback(drawChart);
-
+                $scope.graphdata = data;
+                console.log(data);
+                // binding the data to the $scope variable
+            })
+            .error(function (data, status) {
+                console.error('failure loading the student record', status, data);
+                $scope.tdetail = {}; //return blank record if something goes wrong
+            });
+    };
+    $scope.getgraphdata();
+    $scope.plotdata=function () {
+        //plotting the google graphs
+        google.charts.load('current', {'packages': ['line']});
+        google.charts.setOnLoadCallback(drawChart);
+    };
+    $timeout(function () { //deleay by 0.5 sec
+        $scope.plotdata();
+    }, 3500);
     function drawChart() {
 
         var data = new google.visualization.DataTable();
-        data.addColumn('number', 'Day');
-        data.addColumn('number', 'Productivity');
+        data.addColumn("number", "Day");
+        data.addColumn("number", "Productivity");
 
 
         data.addRows([
@@ -68,19 +74,19 @@ todoAppModule.controller("graphCtrl", function($scope, $rootScope, $http, $locat
 
         var options = {
             chart: {
-                title: 'Productivity Graph',
-                subtitle: 'your productivity this week '
+                title: "Productivity Graph",
+                subtitle: "your productivity this week "
             },
             width: 900,
             height: 500,
             axes: {
                 x: {
-                    0: {side: 'top'}
+                    0: {side: "top"}
                 }
             }
         };
 
-        var chart = new google.charts.Line(document.getElementById('line_top_x'));
+        var chart = new google.charts.Line(document.getElementById("line_top_x"));
 
         chart.draw(data, google.charts.Line.convertOptions(options));
     }
