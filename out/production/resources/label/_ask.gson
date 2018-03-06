@@ -1,0 +1,9 @@
+import Task.Task
+
+model{
+    Task task
+}
+json{
+    id task.id
+    id task.name
+}

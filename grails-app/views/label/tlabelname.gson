@@ -1,0 +1,9 @@
+import Label.Tlabel
+import Task.Task
+import groovy.transform.Field
+
+@Field List<Tlabel> bookList = []
+
+json bookList, { Tlabel book ->
+    title book.lname
+}

@@ -1,0 +1,59 @@
+.cau{
+ position:relative;
+ 
+ }
+.modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+    width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+    text-align: left;
+}
+.modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 15px;
+}
+
+ 
+ 
+ 
+ 
+
+  .bg-4 { 
+      background-color: #2f2f2f;
+      color: #fff;
+  }
+  .ccontainer-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .rtg
+{
+
+width:100%
+}
+#rtgr
+{
+position:absolute;
+padding-left:60%;
+z-index:2;
+
+
+
+}
+img {
+   
+}
+
+
+
+#rtgl
+{position:relative;
+left:15%;
+
+padding-right:60%;
+
+
+z-index:2;
+}
+
