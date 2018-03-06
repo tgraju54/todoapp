@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f33b6ead-f42b-457e-aa84-567bdc77ea47" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/ttask.js" afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/ttask.js" />
       <change beforePath="$PROJECT_DIR$/grails-app/views/dashboard/_header.gsp" afterPath="$PROJECT_DIR$/grails-app/views/dashboard/_header.gsp" />
       <change beforePath="$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp" afterPath="$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp" />
     </list>
@@ -80,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.gsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.gsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="137" column="3" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="50" />
+            <state relative-caret-position="206">
+              <caret line="265" column="50" lean-forward="false" selection-start-line="265" selection-start-column="50" selection-end-line="265" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -100,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.gsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/dashboard/_header.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="54" lean-forward="false" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+            <state relative-caret-position="224">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -878,8 +877,8 @@
         <option value="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/settings.js" />
         <option value="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/graph.js" />
         <option value="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/ttask.js" />
-        <option value="$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/dashboard/_header.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp" />
       </list>
     </option>
   </component>
@@ -1114,12 +1113,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520364144888</updated>
-      <workItem from="1520364147795" duration="4345000" />
+      <workItem from="1520364147795" duration="4673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4345000" />
+    <option name="totallyTimeSpent" value="4673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -1483,18 +1482,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/dashboard/_header.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="137" column="3" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="50" />
+        <state relative-caret-position="224">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/dashboard/_header.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="54" lean-forward="false" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        <state relative-caret-position="206">
+          <caret line="265" column="50" lean-forward="false" selection-start-line="265" selection-start-column="50" selection-end-line="265" selection-end-column="50" />
           <folding />
         </state>
       </provider>

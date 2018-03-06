@@ -135,7 +135,7 @@
         });
     });
 </script>
-<asset:javascript src="/controllers/settings.js"/>
+
 <body ng-app="todoApp" >
 <!--side link controllers-->
 
@@ -263,4 +263,4 @@
 </div>
 </body>
 </html>
-
+<asset:javascript src="/controllers/settings.js"/>
