@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails.plugins:cookie-session:3.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cookie-session/3.0.1/98b51af27c4bb232be3db4420fb5a92eda5b744a/cookie-session-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cookie-session/3.0.1/8f3ae323621284c77a2b47d14231da53543695f6/cookie-session-3.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

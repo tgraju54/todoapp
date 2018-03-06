@@ -32,7 +32,7 @@ class FacebookoauthController   {
 
     String apiKey = "268818280312096"
     String apiSecret = "22cd044d940367282c75f3a81def8dc1"
-    String callBackUrl = "http://localhost:8080/facebookoauth/login"
+    String callBackUrl = "https://todo54.herokuapp.com/facebookoauth/login"
     String baseUrl = "https://graph.facebook.com/";
     Token requestToken = null
 

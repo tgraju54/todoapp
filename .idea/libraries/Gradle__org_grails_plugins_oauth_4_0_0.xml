@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails.plugins:oauth:4.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/oauth/4.0.0/3c416183a6c516018f419f0d897dceed6b6b2944/oauth-4.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/oauth/4.0.0/c39dae3c388e474e3be226e8b77463da18a652b9/oauth-4.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
