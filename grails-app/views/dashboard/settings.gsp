@@ -135,7 +135,7 @@
         });
     });
 </script>
-<asset:javascript src="/controllers/settings.js"/>
+<asset:javascript src="/controllers/ttask.js"/>
 <body ng-app="todoApp" >
 <!--side link controllers-->
 
