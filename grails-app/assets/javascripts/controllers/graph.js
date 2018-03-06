@@ -38,6 +38,7 @@ todoAppModule.controller("graphCtrl", function($scope, $rootScope, $http, $locat
 
                 $scope.graphdata = data;
                 console.log(data);
+                $scope.plotdata();
                 // binding the data to the $scope variable
             })
             .error(function (data, status) {
@@ -51,9 +52,9 @@ todoAppModule.controller("graphCtrl", function($scope, $rootScope, $http, $locat
         google.charts.load('current', {'packages': ['line']});
         google.charts.setOnLoadCallback(drawChart);
     };
-    $timeout(function () { //deleay by 0.5 sec
-        $scope.plotdata();
-    }, 3500);
+
+
+
     function drawChart() {
 
         var data = new google.visualization.DataTable();

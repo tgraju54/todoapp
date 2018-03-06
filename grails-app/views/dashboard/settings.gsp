@@ -19,7 +19,7 @@
         height: 100 px;
     }
 </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
 <!--add header for dashboard -->
 <g:render template="header"/>

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f33b6ead-f42b-457e-aa84-567bdc77ea47" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/graph.js" afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/graph.js" />
-      <change beforePath="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/settings.js" afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/settings.js" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp" afterPath="$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -59,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graph.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="graph.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/controllers/graph.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+            <state relative-caret-position="146">
+              <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -79,11 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.gsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.gsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="136" column="40" lean-forward="false" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
+            <state relative-caret-position="108">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/dashboard/_header.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -856,6 +866,7 @@
         <option value="$PROJECT_DIR$/grails-app/controllers/todoapp/FacebookoauthController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/settings.js" />
         <option value="$PROJECT_DIR$/grails-app/assets/javascripts/controllers/graph.js" />
+        <option value="$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp" />
       </list>
     </option>
   </component>
@@ -1090,12 +1101,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520364144888</updated>
-      <workItem from="1520364147795" duration="2351000" />
+      <workItem from="1520364147795" duration="2810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2351000" />
+    <option name="totallyTimeSpent" value="2810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -1435,10 +1446,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/controllers/graph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="136" column="40" lean-forward="false" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
+        <state relative-caret-position="146">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1451,10 +1462,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/controllers/graph.js">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/dashboard/_header.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        <state relative-caret-position="44">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/dashboard/settings.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
